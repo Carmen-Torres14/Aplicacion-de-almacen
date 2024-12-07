@@ -1,0 +1,121 @@
+body {
+    background-image: linear-gradient(to right, #1d3573 0%, #0097cc 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-container img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1d3573;
+}
+
+.container {
+    width: 400px;
+    max-height: calc(100vh - 150px); 
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 100px auto 20px auto;
+    overflow-y: auto;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form-container h2 {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #002244;
+}
+.btn-custom {
+    background: none;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    color: #333;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-custom:hover {
+    color: #1d3573;
+}
